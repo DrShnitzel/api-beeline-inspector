@@ -1,0 +1,6 @@
+.idea/
+.byebug_history
+
+tmp
+log
+spec/phone_number_credentials.rb

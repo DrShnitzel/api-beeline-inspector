@@ -1,0 +1,14 @@
+---
+ environment: staging
+ chdir: /srv/www/api-beeline-inspector-staging
+ address: 10.191.1.71
+ user: rails
+ group: rails
+ port: 9000
+ pid: /srv/www/api-beeline-inspector-staging/tmp/pids/thin.pid
+ rackup: /srv/www/api-beeline-inspector-staging/config.ru
+ log: /srv/www/api-beeline-inspector-staging/log/thin.log
+ max_conns: 1024
+ timeout: 640
+ max_persistent_conns: 512
+ daemonize: true
