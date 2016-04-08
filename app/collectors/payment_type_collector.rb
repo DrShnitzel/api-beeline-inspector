@@ -6,7 +6,9 @@ class PaymentTypeCollector < BaseCollector
   end
 
   def prepare_response(resp)
-    return :prepaid if resp['meta']['message'] == 'postpaid.only'
-    return :postpaid if resp['meta']['status'] == 'OK'
+    body = resp['meta']
+    return :prepaid if body['message'] == 'postpaid.only'
+    return :postpaid if body['status'] == 'OK'
+    return :postpaid if body['message'] == 'FORBIDDEN (forbidden.for.all.users)'
   end
 end
