@@ -15,7 +15,7 @@ class BeelineInspector
 
   def collect_data
     @params[:payment_type] = PaymentTypeCollector.new(@params).collect
-    @data[:payment_type] =  @params[:payment_type]
+    @data[:payment_type] = @params[:payment_type]
     raise 'payment_type required' unless @params[:payment_type]
     configus.avaible_resources.each do |name|
       collect_data_by_name(name) if @params[name]
