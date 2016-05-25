@@ -9,4 +9,6 @@ gem 'configus'
 group :test, :development do
   gem 'byebug'
   gem 'rspec'
+  gem 'webmock'
+  gem 'vcr'
 end

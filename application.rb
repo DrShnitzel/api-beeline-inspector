@@ -24,7 +24,6 @@ class Application < Sinatra::Base
   def validate_params
     param :phone_number, String, required: true
     param :password, String, required: true
-    param :current_plan, :boolean
     configus.avaible_resources.each do |name|
       param name, :boolean
     end

@@ -1,13 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     byebug (8.2.2)
     configus (0.0.5)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
     daemons (1.2.3)
     diff-lcs (1.2.5)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
     eventmachine (1.2.0.1)
+    hashdiff (0.3.0)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     mime-types (2.99)
@@ -32,6 +36,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    safe_yaml (1.0.4)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -46,6 +51,11 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
+    vcr (3.0.3)
+    webmock (2.0.3)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
 
 PLATFORMS
   ruby
@@ -58,6 +68,8 @@ DEPENDENCIES
   sinatra
   sinatra-param
   thin
+  vcr
+  webmock
 
 BUNDLED WITH
    1.11.2
