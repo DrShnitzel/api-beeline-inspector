@@ -1,6 +1,7 @@
 require 'configus'
 
 ENV['RACK_ENV'] ||= 'development'
+puts ENV['RACK_ENV']
 Configus.build ENV['RACK_ENV'] do # set current environment
   env :production do
     avaible_resources %i(
@@ -8,6 +9,7 @@ Configus.build ENV['RACK_ENV'] do # set current environment
       services
       current_plan
       detail
+      additional_detail
     )
   end
 
@@ -15,5 +17,8 @@ Configus.build ENV['RACK_ENV'] do # set current environment
   end
 
   env :staging, parent: :development do
+  end
+
+  env :testing, parent: :development do
   end
 end

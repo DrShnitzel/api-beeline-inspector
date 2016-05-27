@@ -26,10 +26,11 @@ class DetailCollector < BaseCollector
   end
 
   def wait_for_detail
+    sleep(TIME_TO_WAIT) unless ENV['RACK_ENV'] == 'testing'
     REPEAT_COUNT.times do
-      sleep(TIME_TO_WAIT)
       resp = download_detail
       return resp if pdf?(resp)
+      sleep(TIME_TO_WAIT)
     end
   end
 

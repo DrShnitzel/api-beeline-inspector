@@ -10,7 +10,7 @@ describe CurrentPlanCollector do
       expect(@resp[:name].class).to be String
     end
     it 'returns subscription payment' do
-      expect(@resp[:subscription_payment].class).to be Float
+      expect(@resp.key?(:subscription_payment)).to be true
     end
     it 'returns payment_period' do
       expect(@resp.key?(:payment_period)).to be true

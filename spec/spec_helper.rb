@@ -9,6 +9,8 @@ require_relative 'phone_number_credentials'
 # to create stabs again
 require_relative 'support/vcr_initializer'
 
+ENV['RACK_ENV'] = 'testing'
+
 def base_params
   {
     current_plan: true,
@@ -16,7 +18,8 @@ def base_params
     services: true,
     detail: true,
     start_date: '2015-08-01',
-    end_date: '2015-08-31'
+    end_date: '2015-08-31',
+    additional_date: '2015-09-18'
   }
 end
 
