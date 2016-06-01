@@ -3,5 +3,4 @@
 
 tmp
 log
-spec/phone_number_credentials.rb
-spec/vcr_cassettes/
+.env

@@ -37,7 +37,7 @@ class BeelineRestApiClient
   end
 
   def auth(login, password)
-    url = "auth?login=#{login}&password=#{CGI.escape(password)}"
+    url = "auth?login=#{login}&password=#{password}"
     resp = make_request(url)
     raise AuthError if wrong_credentials?(resp['meta']['message'])
     raise 'No token found in resp' unless resp['token']

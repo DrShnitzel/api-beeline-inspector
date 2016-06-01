@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/postpaidDebt?ctn=9663592847
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=ABA8E84EAB8F26054881E7AC0F47B94C
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:59:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      X-Powered-By:
+      - Servlet/3.0 JSP/2.2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAD2NwQrCQAxE/yXnVUSp6B5FTx6EQj8g3U3LQozQZKGl+O8G
+        ROc2w5uZFZ5kCHEFNbSqEOFxhwDplQnifucKjqji6F4q8ztAj4yS3G+aw2l7
+        Pjpep4kkLV5vu9b7mXq7zUXNFwdkpQBVylAoXwpzkfGKy3cvgNBs/9R+Nx+A
+        ZIeRmgAAAA==
+    http_version: 
+  recorded_at: Fri, 03 Jun 2016 14:59:39 GMT
+recorded_with: VCR 3.0.3

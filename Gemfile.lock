@@ -10,6 +10,7 @@ GEM
     diff-lcs (1.2.5)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.1.1)
     eventmachine (1.2.0.1)
     hashdiff (0.3.0)
     http-cookie (1.0.2)
@@ -63,6 +64,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   configus
+  dotenv
   rest-client
   rspec
   sinatra

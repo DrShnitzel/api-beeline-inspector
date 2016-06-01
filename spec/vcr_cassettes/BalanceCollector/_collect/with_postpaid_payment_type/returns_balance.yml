@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/postpaidBalance?ctn=9663592847
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=ABA8E84EAB8F26054881E7AC0F47B94C
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:59:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAD2NwQqDQAxE/yXnpYgIwh6lPfVQEPoBcTfKQpqCyYIi/nsD
+        pZ3bDG9mDniRIcQD1NCqQoTHHQKkdyaIbeMKjqji4l4q8xlgQkZJ7ru+vXS9
+        03VdSdLu7fE5ej3TZLetqPngjKwUoEqZC+WhMBdZrrh/5wIIbfZP7ffyATBl
+        FjCZAAAA
+    http_version: 
+  recorded_at: Fri, 03 Jun 2016 14:59:21 GMT
+recorded_with: VCR 3.0.3

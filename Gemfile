@@ -5,6 +5,7 @@ gem 'sinatra-param'
 gem 'thin'
 gem 'rest-client'
 gem 'configus'
+gem 'dotenv'
 
 group :test, :development do
   gem 'byebug'

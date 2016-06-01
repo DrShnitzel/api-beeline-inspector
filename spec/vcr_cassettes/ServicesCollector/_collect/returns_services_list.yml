@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/serviceList?ctn=9603197766
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:59:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Fri, 03 Jun 2016 14:59:39 GMT
+recorded_with: VCR 3.0.3

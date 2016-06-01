@@ -1,27 +1,10 @@
 require './application'
-# You need valid phone_number_credentioals in order to test the application
-# They are not included to the repository due security reasons
-# Use phone_number_credentials.rb.sample to create your
-# own phone_number_credentials.rb file
-require_relative 'phone_number_credentials'
-# After first run stubs will be created via VCR https://github.com/vcr/vcr
-# If external API will change than simply remove spec/vcr_cassettes
-# to create stabs again
 require_relative 'support/vcr_initializer'
 
 ENV['RACK_ENV'] = 'testing'
 
-def base_params
-  {
-    current_plan: true,
-    balance: true,
-    services: true,
-    detail: true,
-    start_date: '2015-08-01',
-    end_date: '2015-08-31',
-    additional_date: '2015-09-18'
-  }
-end
+ENV['PREPAID_PASSWORD'] ||= 'PREPAID_PASSWORD'
+ENV['POSTPAID_PASSWORD'] ||= 'POSTPAID_PASSWORD'
 
 def prepaid_params
   VCR.use_cassette('prepaid_beeline_auth') do
@@ -45,20 +28,35 @@ end
 
 private
 
+def base_params
+  {
+    current_plan: true,
+    balance: true,
+    services: true,
+    detail: true,
+    additional_detail: true,
+    start_date: '2016-03-01',
+    end_date: '2016-03-31',
+    additional_date: '2016-04-18'
+  }
+end
+
 def calculate_prepaid_params
-  @prepaid_params = base_params.merge(PREPAID_CREDENTIALS)
+  params = { phone_number: '9603197766', password: ENV['PREPAID_PASSWORD'] }
+  @prepaid_params = base_params.merge(params)
   @prepaid_params[:payment_type] = :prepaid
   @prepaid_params[:api_client] = BeelineRestApiClient.new(
-    PREPAID_CREDENTIALS[:phone_number],
-    PREPAID_CREDENTIALS[:password]
+    params[:phone_number],
+    ENV['PREPAID_PASSWORD']
   )
 end
 
 def calculate_postpaid_params
-  @postpaid_params = base_params.merge(POSTPAID_CREDENTIALS)
+  params = { phone_number: '9663592847', password: ENV['POSTPAID_PASSWORD'] }
+  @postpaid_params = base_params.merge(params)
   @postpaid_params[:payment_type] = :postpaid
   @postpaid_params[:api_client] = BeelineRestApiClient.new(
-    POSTPAID_CREDENTIALS[:phone_number],
-    POSTPAID_CREDENTIALS[:password]
+    params[:phone_number],
+    ENV['POSTPAID_PASSWORD']
   )
 end

@@ -1,0 +1,99 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/request/prepaidDetail?ctn=9603197766&emailSendInd=false&endDate=2016-03-31&reportType=pdf&sessionGroupFlag=true&startDate=2016-03-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:59:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslLy91bSUUrOT0lVsjIyAAId
+        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MTMwsLcwtSkFgBUTqjgSwAA
+        AA==
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:59:21 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3346887854&unZip=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:59:33 GMT
+      Content-Type:
+      - application/pdf
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename=request_attachment_3346887854.pdf
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9Db2xvclNwYWNlWy9DYWxSR0I8
+        PC9HYW1tYVsyLjIyIDIuMjIgMi4yMl0vV2hpdGVQb2ludFswLjk1MDQzIDEg
+        MS4wOV0vTWF0cml4WzAuNDEyMzkgMC4yMTI2NCAwLjAxOTMzIDAuMzU3NTgg
+        MC43MTUxNyAwLjExOTE5IDAuMTgwNDUgMC4wNzIxOCAwLjk1MDRdPj5dL1N1
+        YnR5cGUvSW1hZ2UvSGVpZ2h0IDQyL0ZpbHRlci9GbGF0ZURlY29kZS9UeXBl
+        L1hPYmplY3QvRGVjb2RlUGFybXM8PC9Db2x1bW5zIDE0OS9Db2xvcnMgMy9Q
+        cmVkaWN0b3IgMTUvQml0c1BlckNvbXBvbmVudCA4Pj4vV2lkdGggMTQ5L0xl
+        bmd0aCA0MTc3L0JpdHNQZXJDb21wb25lbnQgOD4+c3RyZWFtCnhe7Zt5UFRX
+        2satb+qbqalMzVS+mtgsgtCA2yiaiAqKuCGLQLODssrq1mjLDiK7gogxEiXG
+        hcSgEYPrRPIlo3GJsgSRRVlc2Bd3ECNo09D9znv7XE863dCCYip/9FNPUX3P
+        Cg==
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:59:33 GMT
+recorded_with: VCR 3.0.3

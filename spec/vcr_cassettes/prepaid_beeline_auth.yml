@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/auth?login=9603197766&password=PREPAID_PASSWORD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAA3KOw6AIBQF0b3cmuIJSgwdH2ksXANRYqFCAVTGvct0k5wX
+        T6wB6kWpobYChW0Fw56PCMWpxzopJZz9U7vvj6HmK6YuJS1yIuc1H7gh6aSd
+        ydEsRq2Ft9zg+wEiVAZgXwAAAA==
+    http_version: 
+  recorded_at: Fri, 03 Jun 2016 14:58:23 GMT
+recorded_with: VCR 3.0.3

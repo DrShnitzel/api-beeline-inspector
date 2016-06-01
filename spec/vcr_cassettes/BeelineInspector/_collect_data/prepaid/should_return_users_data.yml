@@ -1,0 +1,451 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/auth?login=9603197766&password=PREPAID_PASSWORD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAA3KOw6AIBQF0b3cmuIJSgwdH2ksXANRYqFCAVTGvct0k5wX
+        T6wB6kWpobYChW0Fw56PCMWpxzopJZz9U7vvj6HmK6YuJS1yIuc1H7gh6aSd
+        ydEsRq2Ft9zg+wEiVAZgXwAAAA==
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:23 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/postpaidDebt?ctn=9603197766
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslJyDQryD1LSUUrOT0lVsjIy
+        MDAw0wGqKi5OTAfylQryi0sKEjNT9PLzciqVamsBTlKaBEIAAAA=
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:23 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/prepaidBalance?ctn=9603197766
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAD2NwQrCQAxE/yXnRXQtHvYoevIgFPyAdDctCzFCk4WW4r8b
+        EJ3bDDNvNniSIaQN1NCaQoL7DQLkVyFIce8KXlHFyb005neAARkluz/E0647
+        dtH7bZ5J8ur7/tE7oNBg16WqOXJEVgrQpI6VyrkyV5kuuH6BAYQW+6f2+/kA
+        o/99EpsAAAA=
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:24 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/serviceList?ctn=9603197766
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:24 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/pricePlan?ctn=9603197766
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAF1Sy07CQBT9lTpbRzL4SAw7UxWJIhOKujDGjGXAJtiathqV
+        NBE0bjSy0f8AtBFR8Bfu/JG3FElr07T3nLnPc6dJzqQvSK5JPF/4Fx7JkdI2
+        ocR0qpLkFhk+FF08T9QR2xeNRkDJuWuZkjeEXbBrThRrizM8JSurx7xcMiol
+        TCBt3/Kvd+ODvDM3o9alZyIFr/AOAxhBV3U06KtHeIMxUjGhHiCMTC3+9FUL
+        Qg2+IVQt1YYReiP8gD6GjGAIA6oZRYNqxaKhwSByHEMPs3+pp4nzpxaVwshQ
+        3WJAqNpUgx8YR2lhqO6Qm1Vu4+8WBuoeQ4ZoP6DdyWD7rlkWPk7DMuwPcOla
+        TjXWBTVDpu6419F0L1i7k2xxDP3pMF/qGXrxBCOkvydNdbGAVz0xrJuoAiUn
+        wpObEjfiStzJYXO6EKKXOQnoDO6XCvpGkuBc59v5JKNvptBBCm0l0d5xKjcq
+        msqsb+V5uhTfWdv9F1FJpS+T4Aj3XqutT5Qjiyy7vJDNLmSXKozlJm8Gb9g8
+        W2IsuiBX57HjVE/HvpRuXdqmLNiock00PEmJcM1T6zJBBcEvMEZW08YCAAA=
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:24 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/request/prepaidDetail?ctn=9603197766&emailSendInd=false&endDate=2016-03-31&reportType=pdf&sessionGroupFlag=true&startDate=2016-03-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:25 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslLy91bSUUrOT0lVsjIyAAId
+        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MTMwsLc2MCwFgD7/xVMSwAA
+        AA==
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:25 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3346887301&unZip=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:37 GMT
+      Content-Type:
+      - application/pdf
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename=request_attachment_3346887301.pdf
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9Db2xvclNwYWNlWy9DYWxSR0I8
+        PC9HYW1tYVsyLjIyIDIuMjIgMi4yMl0vV2hpdGVQb2ludFswLjk1MDQzIDEg
+        MS4wOV0vTWF0cml4WzAuNDEyMzkgMC4yMTI2NCAwLjAxOTMzIDAuMzU3NTgg
+        MC43MTUxNyAwLjExOTE5IDAuMTgwNDUgMC4wNzIxOCAwLjk1MDRdPj5dL1N1
+        YnR5cGUvSW1hZ2UvSGVpZ2h0IDQyL0ZpbHRlci9GbGF0ZURlY29kZS9UeXBl
+        L1hPYmplY3QvRGVjb2RlUGFybXM8PC9Db2x1bW5zIDE0OS9Db2xvcnMgMy9Q
+        cmVkaWN0b3IgMTUvQml0c1BlckNvbXBvbmVudCA4Pj4vV2lkdGggMTQ5L0xl
+        nPO3JuQYa4/HGZyopz99muFck7mLFi22tma+dnBzX+Hl7esfELRq9dqQDRsF
+        oeERUTHRsXExcfHYTVxCUlxCclx8UvSm+KiYuPDIaIEgDEmv42+IjIpJTdnK
+        DkqpRsQPY0jwoBsE2hR7LCOkYmlpTQNkTfvF+ZKrosaLJTEobIoU4iyzRa+k
+        ODza5qBPcVKFJod4QyA2vHvQ2Au+HnPh0k8LzBZihL4ul0YPZYyZMmnyLKNZ
+        pvPmm5tbLFtm6+jo7L7cAxH6+SPCdQhmvSA0NCwyLCI6Mio2MnoT46hYPNwY
+        FoFV5FvfwKBVSDo+Mbm7+/WPQLkxyBovAO9HNk6qN+NHZ3xQU3608UFNR0L3
+        n8PhJ9smKZGVXBUGY5t4rqvbcuwOKY7Znb3XeLbxcOARG3D1pk2ZijcLUkeE
+        YWU0NGQ0NTFkNTc4NzQxNzg3MGRmOGIxZjM+XS9Sb290IDgwIDAgUi9TaXpl
+        IDgyPj4Kc3RhcnR4cmVmCjI1NTk1MgolJUVPRgo=
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:37 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/request/prepaidDetail?ctn=9603197766&emailSendInd=false&endDate=2016-04-18&reportType=pdf&sessionGroupFlag=true&startDate=2016-04-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:41 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslLy91bSUUrOT0lVsjIyAAId
+        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MTMwsLcxMy4FgBy2XnnSwAA
+        AA==
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:41 GMT
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3346887463&unZip=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:58:52 GMT
+      Content-Type:
+      - application/pdf
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename=request_attachment_3346887463.pdf
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9Db2xvclNwYWNlWy9DYWxSR0I8
+        AAbUf35RPjIADKj//KJ8ZAAYUP/5RfnIADCg/vOL8pEBYED95xflIwPAgPrP
+        L8pHBoAB9GCg==
+    http_version:
+  recorded_at: Fri, 03 Jun 2016 14:58:52 GMT
+recorded_with: VCR 3.0.3

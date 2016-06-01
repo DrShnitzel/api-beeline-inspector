@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my.beeline.ru/api/1.0/info/pricePlan?ctn=9603197766
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.5.3
+      Date:
+      - Fri, 03 Jun 2016 14:59:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - usss-token
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAF1Sy07CQBT9lTpbRzL4SAw7UxWJIhOKujDGjGXAJtiathqV
+        NBE0bjSy0f8AtBFR8Bfu/JG3FElr07T3nLnPc6dJzqQvSK5JPF/4Fx7JkdI2
+        ocR0qpLkFhk+FF08T9QR2xeNRkDJuWuZkjeEXbBrThRrizM8JSurx7xcMiol
+        TCBt3/Kvd+ODvDM3o9alZyIFr/AOAxhBV3U06KtHeIMxUjGhHiCMTC3+9FUL
+        Qg2+IVQt1YYReiP8gD6GjGAIA6oZRYNqxaKhwSByHEMPs3+pp4nzpxaVwshQ
+        3WJAqNpUgx8YR2lhqO6Qm1Vu4+8WBuoeQ4ZoP6DdyWD7rlkWPk7DMuwPcOla
+        TjXWBTVDpu6419F0L1i7k2xxDP3pMF/qGXrxBCOkvydNdbGAVz0xrJuoAiUn
+        wpObEjfiStzJYXO6EKKXOQnoDO6XCvpGkuBc59v5JKNvptBBCm0l0d5xKjcq
+        msqsb+V5uhTfWdv9F1FJpS+T4Aj3XqutT5Qjiyy7vJDNLmSXKozlJm8Gb9g8
+        W2IsuiBX57HjVE/HvpRuXdqmLNiock00PEmJcM1T6zJBBcEvMEZW08YCAAA=
+    http_version: 
+  recorded_at: Fri, 03 Jun 2016 14:59:21 GMT
+recorded_with: VCR 3.0.3

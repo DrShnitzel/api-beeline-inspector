@@ -4,6 +4,9 @@ require 'sinatra/param'
 require './app/beeline_inspector'
 require './app/errors/errors'
 require './config/configus'
+require 'dotenv'
+
+Dotenv.load
 
 class Application < Sinatra::Base
   helpers Sinatra::Param
