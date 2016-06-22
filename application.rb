@@ -18,7 +18,7 @@ class Application < Sinatra::Base
   end
 
   error AuthError do
-    body = { message: 'Cannot auth with given credentials' }
+    body = { message: 'Cannot authenticate with the provided credentials' }
     respond_with!(401, body)
   end
 
