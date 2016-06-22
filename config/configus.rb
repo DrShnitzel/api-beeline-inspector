@@ -11,6 +11,7 @@ Configus.build ENV['RACK_ENV'] do # set current environment
       detail
       additional_detail
     )
+    data_address '/api/abonent/data'
   end
 
   env :development, parent: :production do

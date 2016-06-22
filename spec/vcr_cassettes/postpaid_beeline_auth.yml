@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:59:04 GMT
+      - Wed, 22 Jun 2016 09:29:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -39,9 +39,9 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAAA3KoQ6AIBhF4Xe5mYAO9ZcGDovBZ2DKDCIEIDHeXU4721fx
-        uWwhK1K2uSRInAcYrng7yJH3WCcp2ad/KN43hhxfF7pUWpEhYZSmfZz5JIgG
-        s6iN72LRq9jQfkiJ4RVfAAAA
+        H4sIAAAAAAAAAA3KoQ6AIBhF4Xe5mYC/gkJjDIrBZ2DKDKIEMDHfXU4729dw
+        xxqgG0oN9S3Q2FYw7PmI0MR7rJNSwtn/eVP6GGq+4tOld0ouTnA5jETekBqt
+        mLm0gox10+Tw/T8NxiZfAAAA
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 14:59:04 GMT
+  recorded_at: Wed, 22 Jun 2016 09:29:16 GMT
 recorded_with: VCR 3.0.3

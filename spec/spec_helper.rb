@@ -1,10 +1,18 @@
 require './application'
 require_relative 'support/vcr_initializer'
+require 'rack/test'
+
+include Rack::Test::Methods
 
 ENV['RACK_ENV'] = 'testing'
+Application.show_exceptions = false
+
 
 ENV['PREPAID_PASSWORD'] ||= 'PREPAID_PASSWORD'
 ENV['POSTPAID_PASSWORD'] ||= 'POSTPAID_PASSWORD'
+def app
+  Application
+end
 
 def prepaid_params
   VCR.use_cassette('prepaid_beeline_auth') do

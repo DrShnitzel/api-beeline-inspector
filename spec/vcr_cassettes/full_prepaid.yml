@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:23 GMT
+      - Wed, 22 Jun 2016 08:06:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -39,11 +39,11 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAAA3KOw6AIBQF0b3cmuIJSgwdH2ksXANRYqFCAVTGvct0k5wX
-        T6wB6kWpobYChW0Fw56PCMWpxzopJZz9U7vvj6HmK6YuJS1yIuc1H7gh6aSd
-        ydEsRq2Ft9zg+wEiVAZgXwAAAA==
+        H4sIAAAAAAAAAA3KMQ6AIBAF0bv8mgJcE5ROXGwsPANRYiFqsVgZ7y7TTfJe
+        nKlEuBdSYnkEDssMhfXeElyja6oSkbjXv56cP4VyH+mqkmk0xHYItuN2nKZA
+        vm81MxvjDTUe3w9i9To3XwAAAA==
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:23 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:24 GMT
 - request:
     method: get
     uri: https://my.beeline.ru/api/1.0/info/postpaidDebt?ctn=9603197766
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -67,7 +67,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:23 GMT
+      - Wed, 22 Jun 2016 08:06:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -86,7 +86,7 @@ http_interactions:
         H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslJyDQryD1LSUUrOT0lVsjIy
         MDAw0wGqKi5OTAfylQryi0sKEjNT9PLzciqVamsBTlKaBEIAAAA=
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:23 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:24 GMT
 - request:
     method: get
     uri: https://my.beeline.ru/api/1.0/info/prepaidBalance?ctn=9603197766
@@ -99,7 +99,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -110,7 +110,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:24 GMT
+      - Wed, 22 Jun 2016 08:06:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -126,12 +126,12 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAAD2NwQrCQAxE/yXnRXQtHvYoevIgFPyAdDctCzFCk4WW4r8b
-        EJ3bDDNvNniSIaQN1NCaQoL7DQLkVyFIce8KXlHFyb005neAARkluz/E0647
-        dtH7bZ5J8ur7/tE7oNBg16WqOXJEVgrQpI6VyrkyV5kuuH6BAYQW+6f2+/kA
-        o/99EpsAAAA=
+        H4sIAAAAAAAAAD2NwQrCQAxE/yXnRdbioexR9ORBKPgB6W5aFmKEJgstxX83
+        IDq3GWbe7PAkQ0g7qKE1hQT3GwTIr0KQuugKXlHF2b005neAERkluz/GeOj7
+        U+f9tiwkefP98BgcUGi061rVHDkhKwVoUqdK5VyZq8wX3L7AAEKr/VP7/XwA
+        3Yh6KZsAAAA=
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:24 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:27 GMT
 - request:
     method: get
     uri: https://my.beeline.ru/api/1.0/info/serviceList?ctn=9603197766
@@ -144,7 +144,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -155,7 +155,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:24 GMT
+      - Wed, 22 Jun 2016 08:06:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -171,43 +171,43 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        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
+        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
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:24 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:28 GMT
 - request:
     method: get
     uri: https://my.beeline.ru/api/1.0/info/pricePlan?ctn=9603197766
@@ -220,7 +220,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -231,7 +231,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:24 GMT
+      - Wed, 22 Jun 2016 08:06:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -258,7 +258,7 @@ http_interactions:
         msqsb+V5uhTfWdv9F1FJpS+T4Aj3XqutT5Qjiyy7vJDNLmSXKozlJm8Gb9g8
         W2IsuiBX57HjVE/HvpRuXdqmLNiock00PEmJcM1T6zJBBcEvMEZW08YCAAA=
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:24 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:29 GMT
 - request:
     method: get
     uri: https://my.beeline.ru/api/1.0/request/prepaidDetail?ctn=9603197766&emailSendInd=false&endDate=2016-03-31&reportType=pdf&sessionGroupFlag=true&startDate=2016-03-01
@@ -271,7 +271,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -282,7 +282,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:25 GMT
+      - Wed, 22 Jun 2016 08:06:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -299,13 +299,13 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslLy91bSUUrOT0lVsjIyAAId
-        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MTMwsLc2MCwFgD7/xVMSwAA
+        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MzcyNjS2Ni0FgBSveS5SwAA
         AA==
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:25 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:29 GMT
 - request:
     method: get
-    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3346887301&unZip=true
+    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3367239335&unZip=true
     body:
       encoding: US-ASCII
       string: ''
@@ -315,7 +315,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -326,7 +326,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:37 GMT
+      - Wed, 22 Jun 2016 08:06:42 GMT
       Content-Type:
       - application/pdf
       Transfer-Encoding:
@@ -334,7 +334,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Disposition:
-      - attachment; filename=request_attachment_3346887301.pdf
+      - attachment; filename=request_attachment_3367239335.pdf
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
@@ -349,17 +349,16 @@ http_interactions:
         YnR5cGUvSW1hZ2UvSGVpZ2h0IDQyL0ZpbHRlci9GbGF0ZURlY29kZS9UeXBl
         L1hPYmplY3QvRGVjb2RlUGFybXM8PC9Db2x1bW5zIDE0OS9Db2xvcnMgMy9Q
         cmVkaWN0b3IgMTUvQml0c1BlckNvbXBvbmVudCA4Pj4vV2lkdGggMTQ5L0xl
-        nPO3JuQYa4/HGZyopz99muFck7mLFi22tma+dnBzX+Hl7esfELRq9dqQDRsF
-        oeERUTHRsXExcfHYTVxCUlxCclx8UvSm+KiYuPDIaIEgDEmv42+IjIpJTdnK
-        DkqpRsQPY0jwoBsE2hR7LCOkYmlpTQNkTfvF+ZKrosaLJTEobIoU4iyzRa+k
-        ODza5qBPcVKFJod4QyA2vHvQ2Au+HnPh0k8LzBZihL4ul0YPZYyZMmnyLKNZ
-        pvPmm5tbLFtm6+jo7L7cAxH6+SPCdQhmvSA0NCwyLCI6Mio2MnoT46hYPNwY
-        FoFV5FvfwKBVSDo+Mbm7+/WPQLkxyBovAO9HNk6qN+NHZ3xQU3608UFNR0L3
-        n8PhJ9smKZGVXBUGY5t4rqvbcuwOKY7Znb3XeLbxcOARG3D1pk2ZijcLUkeE
-        YWU0NGQ0NTFkNTc4NzQxNzg3MGRmOGIxZjM+XS9Sb290IDgwIDAgUi9TaXpl
-        IDgyPj4Kc3RhcnR4cmVmCjI1NTk1MgolJUVPRgo=
+        bmd0aCA0MTc3L0JpdHNQZXJDb21wb25lbnQgOD4+c3RyZWFtCnhe7Zt5UFRX
+        MDAyMzYyMzggMDAwMDAgbiAKMDAwMDI1MzU3NiAwMDAwMCBuIAowMDAwMjUz
+        NzcxIDAwMDAwIG4gCjAwMDAyNTQzNjUgMDAwMDAgbiAKMDAwMDI1NTM4MyAw
+        MDAwMCBuIAowMDAwMjU1NjU1IDAwMDAwIG4gCjAwMDAyNTU2ODkgMDAwMDAg
+        biAKMDAwMDI1NTc5NSAwMDAwMCBuIAp0cmFpbGVyCjw8L0luZm8gODEgMCBS
+        L0lEIFs8ODkzMjg3ZTY3ZjRjZGMzYmY2YTQwZmVlOTgzNjhlMGI+PGY2ODM5
+        MjU5NTkxMjU1OTMxMzg5ZjEwZDZiZjE0MjFjPl0vUm9vdCA4MCAwIFIvU2l6
+        ZSA4Mj4+CnN0YXJ0eHJlZgoyNTU5NTMKJSVFT0YK
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:37 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:42 GMT
 - request:
     method: get
     uri: https://my.beeline.ru/api/1.0/request/prepaidDetail?ctn=9603197766&emailSendInd=false&endDate=2016-04-18&reportType=pdf&sessionGroupFlag=true&startDate=2016-04-01
@@ -372,7 +371,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -383,7 +382,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:41 GMT
+      - Wed, 22 Jun 2016 08:06:43 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -400,13 +399,13 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         H4sIAAAAAAAAAKtWyk0tSVSyqlYqLkksKS1WslLy91bSUUrOT0lVsjIyAAId
-        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MTMwsLcxMy4FgBy2XnnSwAA
+        oJLi4sR0ID+vNCenVkepKLWwNLW4xDNFycrY2MzcyNjSzMS4FgBj/C/dSwAA
         AA==
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:41 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:43 GMT
 - request:
     method: get
-    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3346887463&unZip=true
+    uri: https://my.beeline.ru/api/1.0/request/requestAttachment?requestId=3367239643&unZip=true
     body:
       encoding: US-ASCII
       string: ''
@@ -416,7 +415,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - token=60E650DFA212B06D6C80D0834AA3FC2B
+      - token=D3C13D7AE78D4CFFE3B940DDD11B132B
       User-Agent:
       - Ruby
   response:
@@ -427,7 +426,7 @@ http_interactions:
       Server:
       - nginx/1.5.3
       Date:
-      - Fri, 03 Jun 2016 14:58:52 GMT
+      - Wed, 22 Jun 2016 08:06:54 GMT
       Content-Type:
       - application/pdf
       Transfer-Encoding:
@@ -435,7 +434,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Disposition:
-      - attachment; filename=request_attachment_3346887463.pdf
+      - attachment; filename=request_attachment_3367239643.pdf
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
@@ -444,8 +443,19 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9Db2xvclNwYWNlWy9DYWxSR0I8
-        AAbUf35RPjIADKj//KJ8ZAAYUP/5RfnIADCg/vOL8pEBYED95xflIwPAgPrP
-        L8pHBoAB9GCg==
+        PC9HYW1tYVsyLjIyIDIuMjIgMi4yMl0vV2hpdGVQb2ludFswLjk1MDQzIDEg
+        MS4wOV0vTWF0cml4WzAuNDEyMzkgMC4yMTI2NCAwLjAxOTMzIDAuMzU3NTgg
+        MC43MTUxNyAwLjExOTE5IDAuMTgwNDUgMC4wNzIxOCAwLjk1MDRdPj5dL1N1
+        YnR5cGUvSW1hZ2UvSGVpZ2h0IDQyL0ZpbHRlci9GbGF0ZURlY29kZS9UeXBl
+        MDAgbiAKMDAwMDIwMjA0MCAwMDAwMCBuIAowMDAwMjAyMjMxIDAwMDAwIG4g
+        CjAwMDAyMDI4NzQgMDAwMDAgbiAKMDAwMDIwMzgxMiAwMDAwMCBuIAowMDAw
+        MjIxMTUwIDAwMDAwIG4gCjAwMDAyMjEzNDUgMDAwMDAgbiAKMDAwMDIyMTkz
+        OSAwMDAwMCBuIAowMDAwMjIyOTI5IDAwMDAwIG4gCjAwMDAyMjMwOTMgMDAw
+        MDAgbiAKMDAwMDIyMzEyNyAwMDAwMCBuIAowMDAwMjIzMjMzIDAwMDAwIG4g
+        CnRyYWlsZXIKPDwvSW5mbyA2MSAwIFIvSUQgWzxiY2JmZDYyYzNjMjg0N2Y5
+        M2NmMzhlZGFmODRhMzIwOD48OTZjYWI1MDc4MjU0MzlmMDVjNWNkMzNhNzcx
+        MGJlMjc+XS9Sb290IDYwIDAgUi9TaXplIDYyPj4Kc3RhcnR4cmVmCjIyMzM5
+        MQolJUVPRgo=
     http_version:
-  recorded_at: Fri, 03 Jun 2016 14:58:52 GMT
+  recorded_at: Wed, 22 Jun 2016 08:06:54 GMT
 recorded_with: VCR 3.0.3

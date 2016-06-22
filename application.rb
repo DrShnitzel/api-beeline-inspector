@@ -11,7 +11,7 @@ Dotenv.load
 class Application < Sinatra::Base
   helpers Sinatra::Param
 
-  get '/api/abonent/data' do
+  get configus.data_address do
     validate_params
     body = BeelineInspector.new(params).collect_data
     respond_with!(200, body)

@@ -12,4 +12,5 @@ group :test, :development do
   gem 'rspec'
   gem 'webmock'
   gem 'vcr'
+  gem 'rack-test'
 end
